@@ -5,9 +5,18 @@
   "repository": "https://github.com/oluSammy/sample-js-library",
   "author": "Samuel Olumorin",
   "scripts": {
-    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json && npx webpack",
+    "build": "parcel index.html"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "olusammy-simple-package": "^1.0.14",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "micromodal": "^0.4.10",
+    "parcel": "^2.8.3"
   }
 }

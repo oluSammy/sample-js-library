@@ -1,0 +1,30 @@
+{
+  "name": "olusammy-simple-package",
+  "version": "1.0.20",
+  "description": "A simple npm package",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluSammy/sample-js-library"
+  },
+  "keywords": [
+    "sample",
+    "js",
+    "library"
+  ],
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "Samuel Olumorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oluSammy/sample-js-library/issues"
+  },
+  "homepage": "https://github.com/oluSammy/sample-js-library"
+}

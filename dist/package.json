@@ -1,6 +1,6 @@
 {
   "name": "olusammy-simple-package",
-  "version": "1.0.20",
+  "version": "1.2.1",
   "description": "A simple npm package",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
